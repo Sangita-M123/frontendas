@@ -1,0 +1,374 @@
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
+
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navbar Styles */
+.navbar {
+  margin-bottom: 2rem;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+  margin-left: 1rem;
+}
+
+/* Home Section */
+.home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.homeleft {
+  flex: 1;
+  text-align: left;
+}
+
+.homeleft h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.homeleft p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.homebtnBox {
+  display: flex;
+  gap: 1rem;
+}
+
+.homebtnBox button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+}
+
+.home img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Features Section */
+.features, .features2, .features3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.features img, .features2 img, .features3 img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.featuresleft, .featuresright, .featuresleft2, .featuresright2, .featuresleft3, .featuresright3 {
+  flex: 1;
+}
+
+.featuresleft, .featuresleft2, .featuresleft3 {
+  text-align: left;
+}
+
+.featuresright, .featuresright2, .featuresright3 {
+  text-align: right;
+}
+
+/* Product Page Section */
+.productpage {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 3rem 0;
+}
+
+.productpagebox {
+  flex: 1;
+  max-width: 300px;
+}
+
+.productpagebox img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.productpagebox h1 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.productpagebox p {
+  font-size: 1rem;
+}
+
+/* Testimonials Section */
+.testimonials {
+  padding: 3rem 0;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Contact Form Section */
+.contactform {
+  padding: 3rem 0;
+}
+
+.contactform h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+}
+
+button[type="submit"] {
+  margin-top: 1rem;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 1rem 0;
+  text-align: center;
+}
+.navbar1{
+  background-color:white !important;
+}
+/* General Footer Styling */
+/* General Footer Styling */
+footer {
+  background-color: #6a0dad; /* Purple background */
+  color: #fff; /* White text */
+  padding: 2rem 0;
+  font-family: Arial, sans-serif;
+}
+
+.container-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.footer1, .footer2, .footer3, .footer4 {
+  flex: 1;
+  margin: 0 1rem;
+}
+
+.footer1 h4, .footer2 h4, .footer3 h4, .footer4 h4 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #f4f4f4; /* Light color for headings */
+}
+
+.footer-logo h4 {
+  color: #f4f4f4;
+  margin: 0;
+}
+
+.footer1 p {
+  font-size: 0.9rem;
+  color: #ddd; /* Slightly lighter text color */
+}
+
+.permalinks, .privacy {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.permalinks li, .privacy li {
+  margin-bottom: 0.5rem;
+}
+
+.permalinks a, .privacy a {
+  color: #e0d7ff; /* Light purple for links */
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.permalinks a:hover, .privacy a:hover {
+  color: #ffffff; /* White on hover */
+}
+
+.footer-social {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.footer-social li {
+  margin: 0;
+}
+
+.footer-social a {
+  color: #f4f4f4;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: #e0d7ff; /* Light purple on hover */
+}
+
+.material-symbols-outlined {
+  font-size: 1.5rem;
+}
+
+.copyright {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #5c2d91; /* Darker purple for contrast */
+  font-size: 0.8rem;
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+  .container-footer {
+      flex-direction: column;
+  }
+
+  .footer1, .footer2, .footer3, .footer4 {
+      margin: 1rem 0;
+  }
+}
+
+  /* Define the keyframes for the slide animation */
+@keyframes slide {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(200px);
+  }
+}
+
+/* Style the paragraph with the sliding animation */
+h1 {
+  width: 100%; /* Make sure the paragraph takes up the full width */
+  background-color: #f0f0f0; /* Optional: background color for better visibility */
+  padding: 10px; /* Optional: padding for spacing */
+  animation-name: slide;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  display: inline-block; /* Ensure the element respects width/height in the animation */
+}
+/* Define the keyframes for the slide animation */
+@keyframes slide {
+  0% {
+      transform: translateX(0); /* Start at the original position */
+  }
+  100% {
+      transform: translateX(-200px); /* Move 200px to the left */
+  }
+}
+
+/* Style the paragraph with the sliding animation */
+h3 {
+  width: 100%; /* Make sure the paragraph takes up the full width */
+  background-color: #f0f0f0; /* Optional: background color for better visibility */
+  padding: 10px; /* Optional: padding for spacing */
+  animation-name: slide;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  display: inline-block; /* Ensure the element respects width/height in the animation */
+}
+

@@ -1,0 +1,203 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navbar Styles */
+.navbar {
+  margin-bottom: 2rem;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+  margin-left: 1rem;
+}
+
+/* Home Section */
+.home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.homeleft {
+  flex: 1;
+  text-align: left;
+}
+
+.homeleft h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.homeleft p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.homebtnBox {
+  display: flex;
+  gap: 1rem;
+}
+
+.homebtnBox button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+}
+
+.home img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Features Section */
+.features, .features2, .features3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.features img, .features2 img, .features3 img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.featuresleft, .featuresright, .featuresleft2, .featuresright2, .featuresleft3, .featuresright3 {
+  flex: 1;
+}
+
+.featuresleft, .featuresleft2, .featuresleft3 {
+  text-align: left;
+}
+
+.featuresright, .featuresright2, .featuresright3 {
+  text-align: right;
+}
+
+/* Product Page Section */
+.productpage {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 3rem 0;
+}
+
+.productpagebox {
+  flex: 1;
+  max-width: 300px;
+}
+
+.productpagebox img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.productpagebox h1 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.productpagebox p {
+  font-size: 1rem;
+}
+
+/* Testimonials Section */
+.testimonials {
+  padding: 3rem 0;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Contact Form Section */
+.contactform {
+  padding: 3rem 0;
+}
+
+.contactform h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+}
+
+button[type="submit"] {
+  margin-top: 1rem;
+}
+/* Footer Styles */
+footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 1rem 0;
+  text-align: center;
+}
+.navbar1{
+  background-color: rgba(176, 80, 80, 0.745) !important;
+}
+.stop{
+  margin-left: 4px;
+  padding: 4px;
+}
